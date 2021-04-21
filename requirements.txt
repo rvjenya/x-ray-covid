@@ -1,0 +1,7 @@
+streamlit==0.72.0
+numpy==1.19.4
+torch==1.7.0
+torchvision==0.8.1
+pycocotools==2.0.2
+opencv-python==4.4.0.46
+Pillow==8.0.1
