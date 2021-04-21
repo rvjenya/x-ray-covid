@@ -2,9 +2,10 @@ import streamlit as st
 from torchvision import models, transforms
 import torch
 from PIL import Image
-from PIL import Image
+
 
 @st.cache(allow_output_mutation=True)
+
 def predict(image_path):
     finmodel = torch.load('covid_resnet18_epoch500.pt', map_location=torch.device('cpu'))
 
